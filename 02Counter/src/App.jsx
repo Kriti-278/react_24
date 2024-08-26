@@ -46,12 +46,14 @@ const msg = document.getElementById("message");
   return (
     <>
     <div id="message">
-      <h1>Hello React</h1>
-      <h2>Counter Values:{counter}</h2>
+      <h1>Smart Counter</h1>
+      <h2>Counter Value:{counter}</h2>
       <p>So the Counter Value is: {counter}</p>
-      <button onClick={addValue}>Add Value</button>
-      <br/>
-      <button onClick={removeValue}>Remove Value</button>
+      <div class="buttons">
+        <button class="btn1" onClick={addValue}>Add Value</button>
+        <br/>
+        <button class="btn1" onClick={removeValue}>Remove Value</button>
+      </div>
       </div>
     </>
   )
