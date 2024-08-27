@@ -19,7 +19,7 @@ function App() {
   //     setCounter(counter);
   // }
 
-// increasing value till 20 and decreasing but not below 0
+// increasing value till 20 and decreasing the value but not below 0
 const addValue = function() {
 const msg = document.getElementById("message");
   if (counter < 20) {
