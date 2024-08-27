@@ -49,10 +49,10 @@ const msg = document.getElementById("message");
       <h1>Smart Counter</h1>
       <h2>Counter Value:{counter}</h2>
       <p>So the Counter Value is: {counter}</p>
-      <div class="buttons">
-        <button class="btn1" onClick={addValue}>Add Value</button>
+      <div className="buttons">
+        <button className="btn1" onClick={addValue}>Add Value</button>
         <br/>
-        <button class="btn1" onClick={removeValue}>Remove Value</button>
+        <button className="btn1" onClick={removeValue}>Remove Value</button>
       </div>
       </div>
     </>
